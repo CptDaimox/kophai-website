@@ -209,7 +209,7 @@ a:hover {
 	transform: translate3d(0, 0, 0);
 	/* Set your background with this */
 
-	background: #348cb2 url("images/bg4.png") center;
+	background: #348cb2 url("images/bg.png") center;
 	background-repeat: repeat-x;
 	height: 110%;
 	left: 0;

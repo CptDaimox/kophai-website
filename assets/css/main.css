@@ -481,7 +481,7 @@ a:hover {
 }
 
 #header p {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	margin: 0.75em 0 0.25em 0;
 	opacity: 0.75;
 }
@@ -656,11 +656,11 @@ a:hover {
 	/* Header */
 
 	#header h1 {
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 
 	#header p {
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 
 	#header nav {
@@ -733,9 +733,9 @@ nav ul {
 
 @media screen and (max-width: 768px) {
 	.circle-container {
-		width: 50px;
+		width: 60px;
 		/* Adjust the width to use vw units */
-		height: 50px;
+		height: 60px;
 		/* Adjust the height to use vw units */
 	}
 

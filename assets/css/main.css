@@ -797,8 +797,15 @@ nav ul {
   border-radius: 50%;
   border: 2px solid #fff;
   transition: transform 0.2s, filter 0.2s, border-color 0.2s;
+  position:relative
 }
-
+.flag-image {
+  position: absolute;
+  bottom: -20%; /* Adjust this value to control how much of the flag is outside the circle */
+  right: -20%; /* Adjust this value to control the overlap on the right */
+  width: 40px; /* Adjust based on the size of your flag icon/image */
+  height: auto;
+}
 .circle-container img {
   max-width: 50px;
   /* Adjust the max-width to be relative to its parent (.circle-container) */

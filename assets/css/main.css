@@ -288,7 +288,7 @@ a:hover {
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
 
-  background: #348cb2 url("images/xmas-bg.png") center;
+  background: #348cb2 url("images/bg.png") center;
   background-repeat: repeat-x;
   background-size: contain;
   width: 13392px; /* width * 3 */
@@ -308,10 +308,10 @@ a:hover {
   }
 
   100% {
-    -moz-transform: translate3d(-3584px, 0, 0);
-    -webkit-transform: translate3d(-3584px, 0, 0);
-    -ms-transform: translate3d(-3584px, 0, 0);
-    transform: translate3d(-3584px, 0, 0);
+    -moz-transform: translate3d(-4464px, 0, 0);
+    -webkit-transform: translate3d(-4464px, 0, 0);
+    -ms-transform: translate3d(-4464px, 0, 0);
+    transform: translate3d(-4464px, 0, 0);
   }
 }
 
@@ -324,10 +324,10 @@ a:hover {
   }
 
   100% {
-    -moz-transform: translate3d(-3584px, 0, 0);
-    -webkit-transform: translate3d(-3584px, 0, 0);
-    -ms-transform: translate3d(-3584px, 0, 0);
-    transform: translate3d(-3584px, 0, 0);
+    -moz-transform: translate3d(-4464px, 0, 0);
+    -webkit-transform: translate3d(-4464px, 0, 0);
+    -ms-transform: translate3d(-4464px, 0, 0);
+    transform: translate3d(-4464px, 0, 0);
   }
 }
 
@@ -340,10 +340,10 @@ a:hover {
   }
 
   100% {
-    -moz-transform: translate3d(-3584px, 0, 0);
-    -webkit-transform: translate3d(-3584px, 0, 0);
-    -ms-transform: translate3d(-3584px, 0, 0);
-    transform: translate3d(-3584px, 0, 0);
+    -moz-transform: translate3d(-4464px, 0, 0);
+    -webkit-transform: translate3d(-4464px, 0, 0);
+    -ms-transform: translate3d(-4464px, 0, 0);
+    transform: translate3d(-4464px, 0, 0);
   }
 }
 
@@ -356,10 +356,10 @@ a:hover {
   }
 
   100% {
-    -moz-transform: translate3d(-3584px, 0, 0);
-    -webkit-transform: translate3d(-3584px, 0, 0);
-    -ms-transform: translate3d(-3584px, 0, 0);
-    transform: translate3d(-3584px, 0, 0);
+    -moz-transform: translate3d(-4464px, 0, 0);
+    -webkit-transform: translate3d(-4464px, 0, 0);
+    -ms-transform: translate3d(-4464px, 0, 0);
+    transform: translate3d(-4464px, 0, 0);
   }
 }
 

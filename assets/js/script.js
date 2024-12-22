@@ -16,3 +16,7 @@ window.onload = function () {
 window.ontouchmove = function () {
   return false;
 };
+
+document.getElementById("closeBanner").addEventListener("click", function () {
+  document.getElementById("holidayBanner").style.display = "none";
+});

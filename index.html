@@ -11,16 +11,16 @@
     <script src="assets/js/script.js" defer></script>
   </head>
   <body class="is-preload">
-    <!-- <div id="holidayBanner">
+    <div id="holidayBanner">
       <div id="bannerText">
         Wir haben am 24. - 25.12., und 31.12. geschlossen.
-        Am 26.12. und 01.01. haben wir ab 17 Uhr für Sie geöffnet.
+        Am 26.12. und 01.01. haben wir ab 16 Uhr für Sie geöffnet.
         <br>
         Wir wünschen Ihnen frohe Weihnachten und einen guten Rutsch ins neue Jahr!
       </div>
       <div id="closeBanner" style="cursor:pointer;">&times;</div>
       <br>
-    </div> -->
+    </div>
     <div id="wrapper">
       <div id="bg"></div>
       <div id="glass">
@@ -88,6 +88,17 @@
     <script>
       window.onload = function () {
         document.body.classList.remove("is-preload");
+        const banner = document.getElementById("holidayBanner");
+        const currentDate = new Date();
+        const currentDay = currentDate.getDate();
+        const currentMonth = currentDate.getMonth() + 1;
+        const bg = document.getElementById("bg");
+
+        if(currentMonth !== 12) {
+          banner.style.display = "none";
+        } else if (currentDay >= 15 && currentDay <= 31) {
+          banner.style.display = "";
+        }
       };
       window.ontouchmove = function () {
         return false;
@@ -95,6 +106,8 @@
       window.onorientationchange = function () {
         document.body.scrollTop = 0;
       };
+
+   
     </script>
   </body>
 </html>

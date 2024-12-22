@@ -287,8 +287,8 @@ a:hover {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   /* Set your background with this */
-  background: #348cb2 center;
-  background-image: url("images/xmas-bg.png");
+  background-position: center;
+  background-image: url("images/bg.png");
   background-repeat: repeat-x;
   background-size: contain;
   width: 13392px; /* width * 3 */

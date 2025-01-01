@@ -5,10 +5,10 @@ window.onload = function () {
   const currentDay = currentDate.getDate();
   const currentMonth = currentDate.getMonth() + 1;
   const bg = document.getElementById("bg");
-
-  if(currentMonth !== 12) {
+  const isHoliday = currentMonth === 12 || (currentMonth === 1 && currentDay === 1)
+  if(!isHoliday) {
     banner.style.display = "none";
-  } else if (currentDay >= 15 && currentDay <= 31) {
+  } else {
     banner.style.display = "";
     bg.style.backgroundImage = "url('assets/css/images/xmas-bg.png')";
   }
